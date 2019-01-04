@@ -7,46 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <style type="text/css">
-body {
-  font-family: helvetica, sans-serif;
-  margin: auto;
-  width: 80%;
-}
+      body {
+        font-family: helvetica, sans-serif;
+        margin: auto;
+        width: 80%;
+      }
 
-h1,
-h2 {
-  font-weight: 400;
-}
+      h1,
+      h2,
+      h3 {
+        font-weight: 400;
+      }
 
-li {
-  list-style: none;
-  margin: 0 0 10px;
-}
+      li {
+        margin: 0 0 10px;
+      }
 
-ul {
-  padding: 0;
-}
+      ul {
+        padding: 0 0 0 20px;
+      }
 
-a {
-  color: black;
-  text-decoration: none;
-    box-shadow: inset 0px -2px 0 white, inset 0 -7px 0 rgba(255, 2, 102, 0.25);
-}
+      li h3 {
+        display: inline;
+      }
 
-a:hover,
-a:focus {
-    box-shadow: inset 0px -2px 0 white, inset 0 -7px 0 rgba(255, 95, 2, 0.5);
-}
+      a {
+        color: black;
+      }
+
+      a:hover,
+      a:focus {
+        color: red;
+      }
     </style>
   </head>
   <body>
     <h1>Zoe Chodosh</h1>
-    <p>
-      Is a software engineer based in New York City. She currently works at <a href="http://nymag.com" target="_blank" rel="noopener noreferrer">New York Magazine</a>, where she is currently working to build an open source content management system called <a href="https://github.com/clay" target="_blank">Clay</a>. Other projects include at New York Mag include implementing redesigned article pages across all properties, <a href="http://www.thecut.com/2017/08/stella-bugbee-editors-letter-the-new-cut-has-a-new-design.html" target="_blank" rel="noopener noreferrer">relaunching</a> <a href="https://www.thecut.com" target="_blank" rel="noopener noreferrer">The Cut</a>, creating Apple News Channels for all NYMag properties (NYMag, Grubstreet, Vulture, and the Cut), building <a href="https://www.thecut.com/2018/02/the-best-street-style-from-new-york-fashion-week-fall-2018.html" target="_blank" rel="noopener noreferrer">new page templates</a> for photo-driven content, and handling various legacy feature and data migrations. In her free time, Zoe enjoys writing <a href="http://github.com/zonika" target="_blank" rel="noopener noreferrer">code that doesn't do anything of much use</a>, practicing pilates, hiking, sewing, and watching prestige television.
-    </p>
+    <p>Is a person that writes code professionally in New York City. She currently works as a Senior Software Engineer at <a href="http://nymag.com" target="_blank" rel="noopener noreferrer"><em>New York</em> Magazine</a>, with a focus on developing their proprietary open-source content management system, <a href="https://github.com/clay">Clay</a>, which powers all NYMag verticals and is currently being licensed to publishers outside New York Media. Zoe is passionate about Javascript, accessibile websites, writing the cleanest possible CSS, and functional programming. In her free time, Zoe enjoys writing <a href="http://github.com/zonika" target="_blank" rel="noopener noreferrer">code that doesn't do anything of much use</a>, practicing pilates, hiking, sewing, and watching prestige television.</p>
     <p>
       Zoe has previously worked as a software engineer at <a href="http://zola.com" target="_blank" rel="noopener noreferrer">Zola</a>, and has written several articles for fashion publications like <em>V Magazine</em> and <em>V Man</em>.
     </p>
+    <h2>Some recent projects...</h2>
+    <ul>
+      <li><h3><a href="http://nymag.com" target="_blank" rel="noopener noreferrer"><em>New York</em> Magazine</a> Homepage:</h3> Created a brand new NYMag Homepage, previously one of the oldest pages in NYMag's codebase, using the Clay CMS. Project included building Clay components for sections and article slots as well as integration with an existing microservice that programmatically populates article slots based on an Elasticsearch query provided by each slot. <a href="http://nymag.com/press/2018/11/new-york-magazine-launches-new-home-page-design.html">Read more about it here!</a></li>
+      <li><h3>NYMag/The Cut/Vulture/Grubstreet Article Page Redesign:</h3> Implemented a full visual redesign of all article pages on NYMag properties. Project included re-skinning in-article components, brand new recirculation components, a persistant right rail, and four new article page lede designs, as well as working with writers and editors to establish standards for building articles that make production more streamlined.</li>
+      <li><h3>Apple News:</h3> Built brand new, component-based Apple News Format templates that render seamlessly from Clay component data, as well as the microservice that composes the templates and programmatically publishes them to Apple News upon article publish.</li>
+      <li><h3><a href="https://www.thecut.com">The Cut</a> Redesign:</h3> Created a new homepage for the Cut, built using the Clay CMS and the homepage microservice mentioned above. Project included a new site header, footer, section pages, and a complete visual rebrand of article pages, as well as SSL support on thecut.com. <a href="https://www.thecut.com/2017/08/stella-bugbee-editors-letter-the-new-cut-has-a-new-design.html">Read more about it here!</a></li>
+    </ul>
     <p>
       Zoe can be contacted <a href="mailto:zchodosh@gmail.com">via email</a> or found on <a href="http://github.com/zonika" target="_blank" rel="noopener noreferrer">github</a>.      
     </p>
